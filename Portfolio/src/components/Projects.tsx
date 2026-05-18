@@ -1,5 +1,4 @@
 import ProjectLink from "./ProjectLink";
-import missingImage from "../assets/MissingImage.png";
 import service from "../assets/service.jpg";
 import memory from "../assets/memory.png";
 import commerce from "../assets/commerce.png";
