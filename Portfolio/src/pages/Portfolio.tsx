@@ -12,15 +12,15 @@ function Portfolio() {
       <Navbar />
       <section id="landing" style={{ height: "30vh" }}></section>
       <Hero />
-      <div style={{ height: "45vh" }}></div>
+      <div style={{ height: "25vh" }}></div>
       <div className="content">
+        <div style={{ height: "20vh" }}></div>
         <About />
         <hr />
         <Workflow />
         <hr />
         <Projects />
       </div>
-      <div style={{ height: "10vh" }}></div>
     </div>
   );
 }
