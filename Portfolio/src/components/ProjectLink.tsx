@@ -15,9 +15,14 @@ function ProjectLink({
   return (
     <section>
       <div className="ProjectBox">
-        <Link className="ProjectImage" to={link}>
+        <a
+          className="ProjectImage"
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={img} alt="Project Image" className="ProjectImage" />
-        </Link>
+        </a>
         <h2>{title}</h2>
         <p>{text}</p>
         <br></br>

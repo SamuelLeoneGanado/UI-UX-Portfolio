@@ -13,9 +13,9 @@ function Projects() {
       <div className="ProjectAlignment">
         <ProjectLink
           img={service}
-          title="Project 1: Service"
-          text="Description, Due June 7th"
-          link="/project1"
+          title="Project 1: Ottawa Mechanic Services"
+          text="Prototype website for a fictional mechanic, Due June 7th"
+          link="https://ottawamechanicservices.netlify.app/"
         />
         <ProjectLink
           img={memory}
