@@ -20,8 +20,8 @@ function Projects() {
         <ProjectLink
           img={memory}
           title="Project 2: Memory Game"
-          text="Description, Due June 21st"
-          link="/project2"
+          text="Memory game 'Rectangle Recollect', Due June 21st"
+          link="https://slg-seg3125-memorygame.netlify.app"
         />
         <ProjectLink
           img={commerce}
