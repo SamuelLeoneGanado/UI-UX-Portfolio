@@ -26,8 +26,8 @@ function Projects() {
         <ProjectLink
           img={commerce}
           title="Project 3: E-commerce"
-          text="Description, Due July 5th"
-          link="/project3"
+          text="Watch site 'Rewind', Due July 5th"
+          link="https://slg-seg3125-e-commerce.netlify.app/"
         />
         <ProjectLink
           img={analytics}
