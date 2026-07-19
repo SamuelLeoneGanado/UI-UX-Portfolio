@@ -139,33 +139,36 @@ radial-gradient(
 .InTextLink:hover {
   color: #dedede;
 }
-
-.ProjectBox{
+.ProjectBox {
   background-color: rgb(35, 36, 36);
   border-radius: 20px;
   place-items: center;
   display: grid;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1 / 1; 
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box; 
 }
 
-.ProjectImage{
+.ProjectImage {
   width: 90%;
-  height: 90%;
+  height: 200px; 
+  object-fit: cover; 
   background-color: rgb(35, 36, 36);
   border-radius: 20px;
   place-items: center;
   display: grid;
 }
 
-.ProjectAlignment{
+.ProjectAlignment {
   display: grid;
   grid-template-columns: repeat(auto-fit, 350px);
   justify-content: center;
   gap: 10rem;
   padding: 0 4rem;
   width: 100%;
-  align-items: center;
+  align-items: start; /* Changed from center to start so the squares align perfectly at their top edges */
 }
 
 .name-highlight {

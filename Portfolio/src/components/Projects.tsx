@@ -1,5 +1,5 @@
 import ProjectLink from "./ProjectLink";
-import service from "../assets/service.jpg";
+import service from "../assets/service.png";
 import memory from "../assets/memory.png";
 import commerce from "../assets/commerce.png";
 import analytics from "../assets/analytics.png";
@@ -13,7 +13,7 @@ function Projects() {
       <div className="ProjectAlignment">
         <ProjectLink
           img={service}
-          title="Project 1: Ottawa Mechanic Services"
+          title="Project 1: Serivce"
           text="Prototype website for a fictional mechanic, Due June 7th"
           link="https://ottawamechanicservices.netlify.app/"
         />
@@ -32,8 +32,8 @@ function Projects() {
         <ProjectLink
           img={analytics}
           title="Project 4: Dashboard"
-          text="Description, Due July 19th"
-          link="/project4"
+          text="Personal Artist Dashboard, Due July 19th"
+          link="https://slg-seg3125-dashboard.netlify.app/"
         />
       </div>
     </section>
