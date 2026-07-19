@@ -20,7 +20,7 @@ function Workflow() {
             design which will be linked below.
           </p>
           <br></br>
-          <p>Concepts used: to be added.</p>
+          <p></p>
           <br></br>
           <br></br>
         </div>
